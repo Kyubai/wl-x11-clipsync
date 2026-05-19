@@ -27,6 +27,7 @@
             "${pkgs.lib.makeBinPath [
               pkgs.clipnotify
               pkgs.which
+              pkgs.wl-clipboard
               pkgs.xclip
             ]}"
           ];
