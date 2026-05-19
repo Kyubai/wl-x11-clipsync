@@ -25,8 +25,9 @@
             "PATH"
             ":"
             "${pkgs.lib.makeBinPath [
-              pkgs.xclip
               pkgs.clipnotify
+              pkgs.which
+              pkgs.xclip
             ]}"
           ];
         }
